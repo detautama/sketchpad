@@ -1,0 +1,66 @@
+.wrapper{
+  width: 600px;
+  margin: 0 auto;
+}
+
+header{
+  height: 80px;
+  width: 600px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+header h1{
+  color: white;
+  line-height: 80px;
+  text-align: center;
+}
+
+.magic-box{
+  width: 600px;
+  height: 600px;
+  background-color: #e0e0e0;
+  margin: 10px auto;
+	line-height: 0;
+	cursor: crosshair;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.btn-group {
+	margin-bottom: 20px;
+}
+
+.colors button{
+  height: 35px;
+}
+
+.magic-field {
+	display: inline-block;
+	background-color: #C9C9C9;
+	margin: 0;
+	padding: 0;
+}
+
+.white , .white:hover , .white:active{
+  background-color: white;
+}
+
+.yellow , .yellow:hover, .yellow:active{
+	background-color: yellow;
+}
+
+.green , .green:hover, .white:active{
+  background-color: green;
+}
+
+.red , .red:hover, .red:active{
+  background-color: red;
+}
+
+.black , .black:hover , .black:active{
+  background-color: black;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SketchPad</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>The Odin Project : SketchPad</h1>
+      </header>
+      
+      <div class="settings">
+        <div class="btn-group btn-group-justified" role="group" aria-label="settings">
+          <div class="btn-group" role="group">
+		        <button type="button" onclick="reset()" class="btn btn-default">Reset</button>
+		      </div>
+        </div>
+      </div>
+    
+      <div class="colors">
+		    <div class="btn-group btn-group-justified" role="group" aria-label="settings">
+		      <div class="btn-group" role="group">
+		        <button type="button" onclick="temp = usedColor = 'white';" class="btn btn-default white"></button>
+		      </div>
+		      <div class="btn-group" role="group">
+		        <button type="button" onclick="temp = usedColor = 'yellow'" class="btn btn-default yellow"></button>
+		      </div>
+		      <div class="btn-group" role="group">
+		        <button type="button" onclick="temp = usedColor = 'green'" class="btn btn-default green"></button>
+		      </div>
+		      <div class="btn-group" role="group">
+		        <button type="button" onclick="temp = usedColor = 'red'" class="btn btn-default red"></button>
+		      </div>
+		      <div class="btn-group" role="group">
+		        <button type="button" onclick="temp = usedColor = 'black'" class="btn btn-default black"></button>
+		      </div>
+		    </div>
+	    </div>
+    
+      <div class="magic-box">
+      </div>
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="sketch.js"></script>
+      
+    </div>
+  </body>
+</html>
